@@ -23,7 +23,7 @@ public class SnakeSprite extends Rectangle {
 						.setOnKeyPressed(e -> {
 			switch (e.getCode()) {
 			case UP:
-				this.setRotate(90.0);
+				this.setRotate(270.0);
 				direction = Direction.UP;
 				break;
 			case DOWN:
@@ -31,7 +31,7 @@ public class SnakeSprite extends Rectangle {
 				direction = Direction.BOTTOM;
 				break;
 			case LEFT:
-				this.setRotate(0.0);
+				this.setRotate(180.0);
 				direction = Direction.LEFT;
 				break;
 			case RIGHT:

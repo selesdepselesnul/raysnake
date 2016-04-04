@@ -2,9 +2,6 @@ package com.selesdepselesnul.raysnake;
 	
 import java.util.Random;
 
-import com.sun.javafx.geom.Path2D;
-import com.sun.javafx.sg.prism.NGPath;
-
 import javafx.animation.AnimationTimer;
 import javafx.application.Application;
 import javafx.stage.Stage;
@@ -12,9 +9,6 @@ import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
-import javafx.scene.shape.Path;
-import javafx.scene.shape.PathElement;
-
 
 public class Main extends Application {
 	
